@@ -3,10 +3,10 @@
 ## Modules
 
 - [x] User
-- [x] Subject
-- [x] Time Table
-- [x] Exam
-- [x] Marks
+- [] Subject
+- [] Time Table
+- [] Exam
+- [] Marks
 
 ## Steps
 
