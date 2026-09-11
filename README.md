@@ -3,7 +3,7 @@
 ## Modules
 
 - [x] User
-- [] Subject
+- [x] Subject
 - [] Time Table
 - [] Exam
 - [] Marks

@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RoleSeeder::class, // must be first
             UserSeeder::class,
+            SubjectSeeder::class
         ]);
     }
 }

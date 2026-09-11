@@ -21,7 +21,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 1,
                 'name' => "Admin Mg Mg",
-                'email' => 'admin@mail.com',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('password'),
                 'role_id' => 1, // admin
                 'created_at' => $now,
@@ -30,7 +30,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 2,
                 'name' => "Teacher Aye Aye",
-                'email' => 'teacher@mail.com',
+                'email' => 'teacher@gmail.com',
                 'password' => Hash::make('password'),
                 'role_id' => 2, // teacher
                 'created_at' => $now,
@@ -39,7 +39,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 3,
                 'name' => "Student Ko Ko",
-                'email' => 'student@mail.com',
+                'email' => 'student@gmail.com',
                 'password' => Hash::make('password'),
                 'role_id' => 3, // student
                 'created_at' => $now,
@@ -48,7 +48,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 4,
                 'name' => "Student Ma Ma",
-                'email' => 'mama@mail.com',
+                'email' => 'mama@gmail.com',
                 'password' => Hash::make('password'),
                 'role_id' => 3, // student
                 'created_at' => $now,
@@ -57,7 +57,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 5,
                 'name' => "Student Moe Kaung",
-                'email' => 'moekaung@mail.com',
+                'email' => 'moekaung@gmail.com',
                 'password' => Hash::make('password'),
                 'role_id' => 3, // student
                 'created_at' => $now,
