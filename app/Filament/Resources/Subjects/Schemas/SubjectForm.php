@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Subjects\Schemas;
 
+use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Schema;
 
 class SubjectForm
@@ -10,7 +11,7 @@ class SubjectForm
     {
         return $schema
             ->components([
-                //
+                TextInput::make('name')->required()->maxLength(255),
             ]);
     }
 }
