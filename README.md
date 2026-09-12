@@ -8,7 +8,7 @@
 - [] Exam
 - [] Marks
 
-## Steps
+## Filament Steps
 
 - [ ] Migration
 - [ ] Seeder
@@ -16,3 +16,9 @@
 - [ ] Filament Resource 
 - [ ] Column
 - [ ] Form
+
+## Commands
+
+```bash
+php artisan make:filament-resource User
+```
